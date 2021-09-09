@@ -12,7 +12,6 @@
 }
 .nav-bar{
     position: fixed;
-    font-family: 'airstrike_gradientregular';
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
@@ -30,13 +29,18 @@
 }
 
 h1{
+    font-family: 'airstrike_gradientregular';
     font-size: 70pt;
     font-weight: normal;
 }
 
 h2{
+    font-family: 'airstrike_gradientregular';
     font-weight: normal;
     font-size: 30pt;
+}
+
+.nav-link{
     padding-left: 15px;
     padding-right: 15px;
 }
@@ -48,6 +52,32 @@ h2{
 
 body{
     background-color: black;
+}
+
+.blogs-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin-top: 300px;
+}
+
+.blog-panel{
+    color: #33FF00;
+    border: #33FF00;
+    border-style: solid;
+    border-width: 3px;
+    padding: 30px;
+}
+
+.blogs-container a{
+    color: #33FF00;
+    text-decoration: none;
+}
+
+.blog-panel:hover{
+    text-decoration: none;
+    background-color: #33FF00;
+    color: black !important;
 }
 
 
