@@ -1,6 +1,8 @@
 @font-face {
     font-family: 'Airstrike Gradient';
-    src: url('fonts/airstrikegrad-webfont.woff'), url('fonts/airstrikegrad-webfont.woff2'), url('fonts/airstrikegrad.ttf');
+    src: url('fonts/airstrikegrad-webfont.woff2') format('woff2'),
+        url('fonts/airstrikegrad-webfont.woff') format('woff'),
+        url('fonts/airstrikegrad.ttf') format('truetype');
   }
 
   h1{
