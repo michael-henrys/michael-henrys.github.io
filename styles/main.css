@@ -12,9 +12,17 @@
 }
 
   h1{
-      font-family: 'airstrike_gradientregular';
-      font-size: 80pt;
-      color: #33FF00;
+    font-family: 'airstrike_gradientregular';
+    font-size: 80pt;
+    color: #33FF00;
+    font-weight: normal;
+  }
+
+  h2{
+    font-family: 'airstrike_gradientregular';
+    font-size: 40pt;
+    color: #33FF00;
+    font-weight: normal;
   }
 
   body{
