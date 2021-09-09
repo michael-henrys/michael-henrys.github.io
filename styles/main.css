@@ -1,0 +1,14 @@
+@font-face {
+    font-family: 'Airstrike Gradient';
+    src:  url('fonts/airstrikegrad.ttf') format('TrueType'),
+  }
+
+  h1{
+      font-family: 'Airstrike Gradient';
+      font-size: 80pt;
+      color: white
+  }
+
+  body{
+      background-color: black;
+  }
