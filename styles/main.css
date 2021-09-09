@@ -1,14 +1,20 @@
 @font-face {
-    font-family: 'Airstrike Gradient';
-    src: url('fonts/airstrikegrad-webfont.woff2') format('woff2'),
-        url('fonts/airstrikegrad-webfont.woff') format('woff'),
-        url('fonts/airstrikegrad.ttf') format('truetype');
-  }
+    font-family: 'airstrike_gradientregular';
+    src: url('fonts/airstrikegrad-webfont.eot');
+    src: url('fonts/airstrikegrad-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/airstrikegrad-webfont.woff2') format('woff2'),
+         url('fonts/airstrikegrad-webfont.woff') format('woff'),
+         url('fonts/airstrikegrad-webfont.ttf') format('truetype'),
+         url('fonts/airstrikegrad-webfont.svg#airstrike_gradientregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
 
   h1{
-      font-family: 'Airstrike Gradient';
+      font-family: 'airstrike_gradientregular';
       font-size: 80pt;
-      color: white
+      color: #33FF00;
   }
 
   body{
