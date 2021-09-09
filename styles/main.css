@@ -33,18 +33,19 @@
 h1{
     padding-top: 0;
     font-size: 70pt;
-    
+    text-decoration: none;
 }
 
 h2{
     font-size: 30pt;
     padding-left: 15px;
     padding-right: 15px;
+    text-decoration: none;
 }
 
 .nav-bar a{
     color: #33FF00;
-    text-decoration: none;
+    
 }
 
 body{
