@@ -53,10 +53,12 @@ em{
     color: #ff00b3;
 }
 
+
 .blog-content{
     margin: 20%;
     margin-top: 300px;
     text-align: center;
+    font-family: 'Courier New', Courier, monospace;
 }
 
 .nav-bar{
