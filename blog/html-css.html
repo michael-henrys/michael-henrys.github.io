@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <title>Margins, Borders and Padding</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="../styles/main.css">
+</head>
+
+<body>
+
+    <div class="nav-bar">
+        <a href="../index.html">
+            <h1>&nbsp;Michael<br>Henrys</h1>
+        </a>
+        <div class="link-tray">
+            <div>
+                <a href="">
+                    <h2 class="nav-link">&nbsp;About</h2>
+                </a>
+                <a href="">
+                    <h2 class="nav-link">Links</h2>
+                </a>
+            </div>
+            <div>
+                <a href="">
+                    <h2 class="nav-link">&nbsp;Portfolio</h2>
+                </a>
+                <a href="">
+                    <h2 class="nav-link">Contact</h2>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <div class="blog-content">
+
+        <h2>Margins, Borders, and Padding</h2>
+
+        <p>
+            Margins, Borders and Padding are properties of elements on a web page that can be adjusted with CSS code. Margins are the space between an element and the surrounding area, padding is the distance between the content and the edge of the containing element, while a border is at the edge of an element. It's okay if that's doesn't make sense much yet. I'll show you how each of each of them work. 
+        </p>
+
+        <img src="../images/margin-border-padding.webp" alt="Image showing margins" width="400">
+
+        <h4>Margins</h4>
+
+        <P>
+            Margins are used to make space between elements on a web page. Using CSS we can set margins using the margin keyword. For example, a margin of 20 pixels could be specified. This means that there is 20 pixels between the edge of the element and the surrounding page or any other adjacent elements.
+        </P>
+
+        <style>
+            .box{
+                margin: 20px;
+                background-color: #ff00b3;
+                color: white;
+                padding: 20px;
+            }
+            .diagram{
+                display: flex;
+                justify-content: center;
+            }
+        </style>
+        
+        <div class="diagram">
+            <div class="box">
+                <p>I have a 20 pixel margin</p> 
+            </div>
+    
+            <div class="box">
+                <p>So do I</p> 
+            </div>
+        </div>
+
+        <p>
+            This is simply achieved by declaring <em>margin: 20px;</em> in the css rules for the box class. Since each box has a 20 pixel margin in each direction that means there is a 40 pixel gap between them. Margins in specific directions can be specified too using any of the keywords <em>margin-top, margin bottom, margin-left, margin-right</em>. Margins can be given in many different units like cm and inches, and also proportional measurements like the percentage of the page.  
+        </p>
+
+        <h4>Padding</h4>
+
+        <p>
+            Padding is the internal distance between the content within an element and the edge of an element. For example the words in this box are the content and the padding is the distance between them and the edge of the box
+        </p>
+
+        <div class="diagram">
+            <div class="box">
+                <P>There is a 20px padding between me and my box</P> 
+            </div>
+        </div>
+
+        <p>This is very similar to the margin except it is for the inside an element as opposed to outside of it. Just like margins, padding can be given in many different units and is simply specified using the keyword <em>padding</em>. Padding can also be given in each direction using the <em>padding-left, padding right, padding-top, padding-bottom</em> keywords</p>
+
+        <h4>Borders</h4>
+
+        <p>
+            Borders are at the edge of an element, they are exactly in the middle between the padding and the margin. Borders are used to decorate or emphasize content. 
+        <p>
+
+        <style>
+            .border-box{
+                border-color: #ff00b3;
+                color: #ff00b3;
+                border-style: solid;
+                border-width: 3px;
+                border-radius: 15px;
+                padding: 20px;
+            }
+        </style>
+
+        <div class="diagram">
+            <div class="border-box">
+                <p>I have a border!</p>
+            </div>
+        </div>
+        
+        <p>
+            Borders have many properties that can be adjusted with keywords. <em>border-width</em> specifies the thickness of the border. The one above is only three pixels wide but they can be as wide as you want! Another keyword is <em>border-style</em> which specifies what the border will look like. This one is a solid border but it can also be dotted or dashed or any other style of your choice. We can also set the colour of the border using <em>border-color</em> and we can use <em>border-radius</em> to choose how rounded the corners of the border are. The default radius of 0px is just a sharp square corner.
+        </p>
+
+        
+
+
+
+
+
+    </div>
+    <!-- this is a comment. -->
+
+</body>
+
+</html>
